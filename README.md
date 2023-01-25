@@ -78,23 +78,27 @@ Resultat : wsj_0010_sample.txt.chk.nltk
 Pour généraliser le programme Python précédent pour extraire les mots composés (chunks),
 nous avons crée un fichier  ./data/compound_word_grammar.cfg dans lequel on déclare les différentes structures syntaxiques.
 
--------------------
-*Adjectif-Nom 
-*Nom-Nom 
-*Adjectif-Nom-Nom 
-*Adjectif-Adjectif-Nom
+- Adjectif-Nom 
+- Nom-Nom 
+- Adjectif-Nom-Nom 
+- Adjectif-Adjectif-Nom
 
 Resultat : wsj_0010_sample.txt.generalize.nltk
 
 ## II) Utilisation de la plateforme NLTK pour l’extraction d’entités nommées
 Les résultats sont présent dans le dossier ./resultat/analyse_syntaxique
+
 ### Q3.1
+
 Voir extraction_entites_nommees.py
+
 Resultat : wsj_0010_sample.txt.ne.nltk
 
 ### Q3.2
 Nous avons pas bien compris s'il faut transformer par B-ORG ou seulement par ORG le tag initiale ORGANISATION. Nous avons donc effectuer suelement la deuxieme option.
+
 Voir extraction_entites_nommees.py
+
 Resultat : wsj_0010_sample.txt.ne.converted.nltk
 
 ### Q3.3
