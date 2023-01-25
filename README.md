@@ -12,14 +12,16 @@ Une fonction main est à disposition pour lancer tout les fichiers demander en r
 Commande : python main.py 
 
 Chaque resultats pour chacune des parties :
-	- PARTIE 1 : ./resultat/morpho_syntaxique
-	- PARTIE 2 : ./resultat/analyse_syntaxique
-	- PARTIE 3 : ./resultat/entite_nommee
+--------------------------------------
+	* PARTIE 1 : ./resultat/morpho_syntaxique
+	* PARTIE 2 : ./resultat/analyse_syntaxique
+	* PARTIE 3 : ./resultat/entite_nommee
 
-Les scripts pour chacunes des parties : 
-	- PARTIE 1 : morpho_syntaxique.py
-	- PARTIE 2 : a_syntaxique.py
-	- PARTIE 3 : extraction_entites_nommees.py
+Les scripts pour chacunes des parties :
+--------------------------------------
+	* PARTIE 1 : morpho_syntaxique.py
+	* PARTIE 2 : a_syntaxique.py
+	* PARTIE 3 : extraction_entites_nommees.py
 
 # I) Evaluation de l’analyse morpho-syntaxique de la plateforme NLTK 
 
