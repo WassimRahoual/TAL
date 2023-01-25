@@ -70,14 +70,41 @@ Une précision plus faible peut être acceptable dans certains cas, tandis que d
 # II) Utilisation de la plateforme NLTK pour l’analyse syntaxique
 
 ### Q2.1
+Voir a_syntaxique.py
+Resultat :
+---------------------------------------------------------------------------------------------------
+	* wsj_0010_sample.txt.chk.nltk
 
 ### Q2.2
+Pour généraliser le programme Python précédent pour extraire les mots composés (chunks),
+nous avons crée un fichier  ./data/compound_word_grammar.cfg dans lequel on déclare les différentes structures syntaxiques.
 
- ./data/compound_word_grammar.cfg 
+Adjectif-Nom 
+Nom-Nom 
+Adjectif-Nom-Nom 
+Adjectif-Adjectif-Nom
+
+Resultat :
+---------------------------------------------------------------------------------------------------
+	* wsj_0010_sample.txt.generalize.nltk
 
 ## II) Utilisation de la plateforme NLTK pour l’extraction d’entités nommées
 
 ### Q3.1
+Voir extraction_entites_nommees.py
+Resultat :
+---------------------------------------------------------------------------------------------------
+	* wsj_0010_sample.txt.ne.nltk
 
 ### Q3.2
+Nous avons pas bien compris s'il faut transformer par B-ORG ou seulement par ORG le tag initiale ORGANISATION. Nous avons donc effectuer suelement la deuxieme option.
+Voir extraction_entites_nommees.py
+Resultat :
+---------------------------------------------------------------------------------------------------
+	* wsj_0010_sample.txt.ne.converted.nltk
 
+### Q3.3
+Les résultats sont présent dans le dossier ./resultat/morpho_syntaxique
+
+* formal-tst.NE.key.04oct95_sample.txt.ne.nltk => Fichier initiale
+* formal-tst.NE.key.04oct95_sample.txt.ne.converted.nltk => Fichier convertis
