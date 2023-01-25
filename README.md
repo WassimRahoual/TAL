@@ -78,10 +78,11 @@ Resultat : wsj_0010_sample.txt.chk.nltk
 Pour généraliser le programme Python précédent pour extraire les mots composés (chunks),
 nous avons crée un fichier  ./data/compound_word_grammar.cfg dans lequel on déclare les différentes structures syntaxiques.
 
-Adjectif-Nom 
-Nom-Nom 
-Adjectif-Nom-Nom 
-Adjectif-Adjectif-Nom
+-------------------
+*Adjectif-Nom 
+*Nom-Nom 
+*Adjectif-Nom-Nom 
+*Adjectif-Adjectif-Nom
 
 Resultat : wsj_0010_sample.txt.generalize.nltk
 
