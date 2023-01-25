@@ -24,6 +24,7 @@ Les scripts pour chacunes des parties :
 	* PARTIE 3 : extraction_entites_nommees.py
 
 # I) Evaluation de l’analyse morpho-syntaxique de la plateforme NLTK 
+Les résultats sont présent dans le dossier ./resultat/morpho_syntaxique
 
 ### Q1.1
 
@@ -68,12 +69,10 @@ Enfin, il est important de prendre en compte l'utilisation spécifique et l'impa
 Une précision plus faible peut être acceptable dans certains cas, tandis que dans d'autres cas une précision plus élevée est requise.
 
 # II) Utilisation de la plateforme NLTK pour l’analyse syntaxique
-
+Les résultats sont présent dans le dossier ./resultat/analyse_syntaxique
 ### Q2.1
 Voir a_syntaxique.py
-Resultat :
----------------------------------------------------------------------------------------------------
-	* wsj_0010_sample.txt.chk.nltk
+Resultat : wsj_0010_sample.txt.chk.nltk
 
 ### Q2.2
 Pour généraliser le programme Python précédent pour extraire les mots composés (chunks),
@@ -84,27 +83,21 @@ Nom-Nom
 Adjectif-Nom-Nom 
 Adjectif-Adjectif-Nom
 
-Resultat :
----------------------------------------------------------------------------------------------------
-	* wsj_0010_sample.txt.generalize.nltk
+Resultat : wsj_0010_sample.txt.generalize.nltk
 
 ## II) Utilisation de la plateforme NLTK pour l’extraction d’entités nommées
-
+Les résultats sont présent dans le dossier ./resultat/analyse_syntaxique
 ### Q3.1
 Voir extraction_entites_nommees.py
-Resultat :
----------------------------------------------------------------------------------------------------
-	* wsj_0010_sample.txt.ne.nltk
+Resultat : wsj_0010_sample.txt.ne.nltk
 
 ### Q3.2
 Nous avons pas bien compris s'il faut transformer par B-ORG ou seulement par ORG le tag initiale ORGANISATION. Nous avons donc effectuer suelement la deuxieme option.
 Voir extraction_entites_nommees.py
-Resultat :
----------------------------------------------------------------------------------------------------
-	* wsj_0010_sample.txt.ne.converted.nltk
+Resultat : wsj_0010_sample.txt.ne.converted.nltk
 
 ### Q3.3
-Les résultats sont présent dans le dossier ./resultat/morpho_syntaxique
+Les résultats sont présent dans le dossier ./resultat/entite_nommee
 
 * formal-tst.NE.key.04oct95_sample.txt.ne.nltk => Fichier initiale
 * formal-tst.NE.key.04oct95_sample.txt.ne.converted.nltk => Fichier convertis
